@@ -1,0 +1,42 @@
+body,html{
+  position:relative;
+  margin: 0 auto;
+  font:$fregular;
+  color: $text;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container{
+  margin: 0 30px;
+  min-width: 320px;
+  max-width: 1170px;
+  position:relative;
+  overflow: hidden;
+  padding: 20px 0;
+  @media(min-width: $full){
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+}
+h1{
+  font: $fbig;
+}
+h2 {
+  font: $fbidder;
+}
+h3{
+  font: $fbidder;
+  text-transform: uppercase;
+}
+a{
+  color: $text;
+  text-decoration: none;
+}

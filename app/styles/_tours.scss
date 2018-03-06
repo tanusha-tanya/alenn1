@@ -1,0 +1,48 @@
+.tours{
+  background: url('/images/bg.png');
+  margin: 20px 0;
+  h2{
+    margin: 20px 0 40px 0;
+  }
+}
+
+.tour-items{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px -60px;
+}
+.tour-item{
+  background: $bg;
+  padding: 100px 60px;
+  width: calc(50% - 120px);
+  margin: 0 60px;
+}
+.tour-title__1{
+  color: $title1;
+}
+
+.tour-title__2{
+  color: $title2;
+}
+time{
+  font: $fimportant;
+}
+/*
+$full: 1200px;
+
+$fbidder: 30px/39px 'Museo Sans Cyrl 900', arial;
+$fbig: 36px 'Museo Sans Cyrl 700', arial;
+$fnormalBold: 24px 'Museo Sans Cyrl 700', arial;
+$fnormal: 24px 'Museo Sans Cyrl 300', arial;
+$fimportant: 30px/39px 'Museo Sans Cyrl 300', arial;
+$fplacehold: 14px/24px 'NotoSans-Regular', arial;
+$fregular: 18px/24px 'NotoSans-Regular', arial;
+$fregularBold: 18px/24px 'NotoSans-Bold', arial;
+$text: #000000;
+$title1: #fa6cae;
+$title2: #666de3;
+$border: #000000;
+$borderactive: #6a6fe3;
+$buttonto: #5bb8f8;
+$bg: #ffffff;
+*/

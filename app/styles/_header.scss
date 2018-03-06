@@ -1,0 +1,46 @@
+.header-wrap{
+  display:flex;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: calc(40% - 30px);
+  margin: 0 15px;
+  @media(min-width: $full){
+  width: calc(12% - 30px);
+}
+  svg{
+
+  }
+}
+.title{
+  width: calc(100% -30px);
+  margin: 0 15px;
+  @media(min-width: $full){
+  width: calc(68% - 30px);
+  p{
+    font: $fnormal;
+    display: inline-block;
+    margin-top: 7px;
+  }
+}
+}
+.cont{
+    width: calc(60% - 30px);
+    margin: 0 15px;
+    @media(min-width: $full){
+    order: 1;
+    width: calc(20% - 30px);
+    >a{
+      font: $fnormalBold;
+      display: inline-block;
+      margin-top:  35px;
+    }
+  .soc{
+    text-align: right;
+    margin-top: 44px;
+  }
+}
+}
