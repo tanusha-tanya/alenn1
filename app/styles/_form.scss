@@ -1,0 +1,19 @@
+.form{
+    background: url('/images/bg_form.png') repeat-x center;
+    margin: 20px 0;
+}
+fieldset{
+    border: none;
+}
+input[type="text"]{
+    width: 320px;
+    height: 50px;
+    margin-right: 40px;
+}
+.long{
+    input[type="text"], input[type="date"] {
+        width: 130px;
+        height: 50px;
+        margin-right: 40px;
+    }
+}

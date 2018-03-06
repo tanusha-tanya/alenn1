@@ -8,21 +8,21 @@ section.form
           input(type="text")(name="name")(placeholder="Имя")(required="required")
         fieldset
           input(type="text")(name="patronymic")(placeholder="Отчество")(required="required")
-          input(type="phone")(name="phone")(placeholder="Номер телефоа")(required="required")
+          input(type="text")(name="phone")(placeholder="Номер телефоа")(required="required")
         fieldset
-          input(type="e-mail")(name="e-mail")(placeholder="Эл. почта")(required="required")
+          input(type="text")(name="e-mail")(placeholder="Эл. почта")(required="required")
           input(type="text")(name="city")(placeholder="Город")(required="required")
-        fieldset
+        fieldset.long
           input(type="text")(name="school")(placeholder="Школа")(required="required")
           input(type="text")(name="class")(placeholder="Класс")(required="required")
           input(type="date")(name="date")(placeholder="Дата рождения")(required="required")
           input(type="checkbox")(name="math")(id="math")(required="required")
-          label(for="math")Математика
+          label(for="math") Математика
           input(type="checkbox")(name="it")(id="it")(required="required")
-          label(for="it")
+          label(for="it") Информатика
         p*Все поля обязательны для заполнения
         fieldset
           input.confirm(type="checkbox")(name="confirm")(id="confirm")(required="required")
-          label(for="confirm")Информатика
+          label(for="confirm")
             a Я согласен с условиями пользовательского соглашения и обработкой персональных данных.
         submit Отправить
